@@ -29,3 +29,29 @@ Notes and samples for Hadoop
 
 * __Scoop, Flume, Kafka__: Get data into the cluster (data ingestion). Scoop can take data from relational databases. Flume transports web logs to cluster. Kafka can collect data of any sort from a cluster of PCs and ingest it into the cluster.
 
+ ### 1.1 External Data Storage
+ 
+ * __MySQL__
+ 
+ * __Cassandra__: Columnar data store
+ 
+ * __MongoDB__: Columnar data store
+ 
+ (Hbase could also belong here, though it is part of the Hadoop stack itself.)
+ 
+ ### 1.2 Query Engines
+ 
+ Lets you query data.
+ 
+ * __Apache Drill__: Write SQL queries to query across a variety of NoSQL databases.
+ 
+ * __Apache Phoenix__: Similar to Drill. Lets you query across data, but also gives ACID guarantees.
+ 
+ * __Hue__: Interactively create queries.
+ 
+ * __Presto__: Another way to execute queries across the cluster.
+ 
+ * __Apache Zeppelin__: Takes a more notebook-like approach to querying the cluster.
+
+(Hive could also be considered a query engine.)
+
